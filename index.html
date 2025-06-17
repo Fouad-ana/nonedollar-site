@@ -2,51 +2,62 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Nonedollar – Achetez & Vendez</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>🛒 Bienvenue sur Nonedollar</h1>
-    <p>Votre marketplace pour vendre vos objets facilement</p>
-    <nav>
-      <a href="#produits">Produits</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <div class="container">
+      <h1>🛍️ Nonedollar</h1>
+      <nav>
+        <a href="#produits">Produits</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section id="produits">
+  <section class="hero">
+    <div class="container">
+      <h2>Vendez & achetez vos articles simplement</h2>
+      <p>Une plateforme simple, rapide et efficace.</p>
+      <a href="#produits" class="btn">Découvrir les produits</a>
+    </div>
+  </section>
+
+  <main class="container">
+    <section id="produits" class="produits">
       <h2>Nos Objets à Vendre</h2>
-      <div class="carte">
-        <img src="https://via.placeholder.com/200" alt="Produit 1" />
-        <h3>Produit 1</h3>
-        <p>Prix : 25 €</p>
+      <div class="grid">
+        <div class="carte">
+          <img src="https://via.placeholder.com/300" alt="Produit 1" />
+          <h3>Chaussures Nike</h3>
+          <p>Prix : 45 €</p>
+        </div>
+        <div class="carte">
+          <img src="https://via.placeholder.com/300" alt="Produit 2" />
+          <h3>Sac à main</h3>
+          <p>Prix : 30 €</p>
+        </div>
+        <div class="carte">
+          <img src="https://via.placeholder.com/300" alt="Produit 3" />
+          <h3>Laptop Lenovo</h3>
+          <p>Prix : 220 €</p>
+        </div>
       </div>
-      <div class="carte">
-        <img src="https://via.placeholder.com/200" alt="Produit 2" />
-        <h3>Produit 2</h3>
-        <p>Prix : 40 €</p>
-      </div>
-      <!-- Tu peux dupliquer les blocs .carte -->
     </section>
 
-    <section id="contact">
+    <section id="contact" class="contact">
       <h2>Contactez-nous</h2>
-      <p>Email : contact@nonedollar.com</p>
-      <p>Instagram : @nonedollar_officiel</p>
+      <p>Email : <a href="mailto:contact@nonedollar.com">contact@nonedollar.com</a></p>
+      <p>Instagram : <a href="https://instagram.com/nonedollar_officiel">@nonedollar_officiel</a></p>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Nonedollar.com – Tous droits réservés</p>
+    <div class="container">
+      <p>&copy; 2025 Nonedollar.com – Tous droits réservés</p>
+    </div>
   </footer>
-</body>
-</html>
-
-  <h1>Bienvenue sur Nonedollar.com</h1>
-  <p>Site officiel en cours de lancement.</p>
-  <a href="mailto:contact@nonedollar.com" class="button">Contactez-nous</a>
 </body>
 </html>
