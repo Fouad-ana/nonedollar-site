@@ -54,4 +54,55 @@ header nav a {
 
 .btn {
   background-color: var(--primary);
- 
+  color: white;
+  padding: 0.8rem 1.5rem;
+  display: inline-block;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.produits h2, .contact h2 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.carte {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  padding: 1rem;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.carte:hover {
+  transform: scale(1.03);
+}
+
+.carte img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.contact {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+footer {
+  background-color: var(--dark);
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+  margin-top: 3rem;
+}
